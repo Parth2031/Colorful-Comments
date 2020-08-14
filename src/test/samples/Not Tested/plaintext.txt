@@ -1,0 +1,10 @@
+
+Hello world
+this is some plain text
+and here is a comment of my own design
+
+! My Comment
+? Comment
+^ Not Important
+
+This is some more text

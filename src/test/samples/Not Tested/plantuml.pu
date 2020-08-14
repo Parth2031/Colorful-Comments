@@ -1,0 +1,7 @@
+
+@startuml
+' This is a comment on a single line
+Bob->Alice : hello
+' ! You quote alors use slash-and-quote
+' * hello world
+@enduml

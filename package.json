@@ -1,0 +1,209 @@
+{
+	"name": "colorful-comments",
+	"displayName": "Colorful Comments",
+	"icon": "icon.png",
+	"description": "Improve you code and make it attractive by adding Colorful Comments",
+	"version": "0.0.1",
+	"publisher": "Parth2031",
+	"author": {
+		"name": "Parth Rastogi"
+	},
+	"homepage": "https://github.com/Parth2031/Colorful-Comments/master/README.md",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Parth2031/Colorful-Comments"
+	},
+	"bugs": "https://github.com/Parth2031/Colorful-Comments/issues",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+  "categories": [
+		"Formatters"
+	],
+	"extensionKind": [
+		"ui"
+	],
+	"activationEvents": [
+		"onLanguage:ada",
+		"onLanguage:al",
+		"onLanguage:apex",
+		"onLanguage:asciidoc",
+		"onLanguage:bibtex",
+		"onLanguage:c",
+		"onLanguage:clojure",
+		"onLanguage:cfml",
+		"onLanguage:COBOL",
+		"onLanguage:coffeescript",
+		"onLanguage:cpp",
+		"onLanguage:csharp",
+		"onLanguage:css",
+		"onLanguage:d",
+		"onLanguage:dart",
+		"onLanguage:diagram",
+		"onLanguage:dockerfile",
+		"onLanguage:elixir",
+		"onLanguage:elm",
+		"onLanguage:erlang",
+		"onLanguage:flax",
+		"onLanguage:fsharp",
+		"onLanguage:fortran-modern",
+		"onLanguage:gdscript",
+		"onLanguage:genstat",
+		"onLanguage:go",
+		"onLanguage:graphql",
+		"onLanguage:groovy",
+		"onLanguage:haskell",
+		"onLanguage:html",
+		"onLanguage:haxe",
+		"onLanguage:hive-sql",
+		"onLanguage:kotlin",
+		"onLanguage:java",
+		"onLanguage:javascript",
+		"onLanguage:javascriptreact",
+		"onLanguage:jsonc",
+		"onLanguage:julia",
+		"onLanguage:latex",
+		"onLanguage:less",
+		"onLanguage:lisp",
+		"onLanguage:lua",
+		"onLanguage:makefile",
+		"onLanguage:markdown",
+		"onLanguage:matlab",
+		"onLanguage:nim",
+		"onLanguage:objective-c",
+		"onLanguage:objective-cpp",
+		"onLanguage:objectpascal",
+		"onLanguage:pascal",
+		"onLanguage:perl",
+		"onLanguage:perl6",
+		"onLanguage:pig",
+		"onLanguage:plaintext",
+		"onLanguage:plsql",
+		"onLanguage:php",
+		"onLanguage:powershell",
+		"onLanguage:puppet",
+		"onLanguage:python",
+		"onLanguage:r",
+		"onLanguage:racket",
+		"onLanguage:ruby",
+		"onLanguage:rust",
+		"onLanguage:scala",
+		"onLanguage:sas",
+		"onLanguage:sass",
+		"onLanguage:scss",
+		"onLanguage:shaderlab",
+		"onLanguage:shellscript",
+		"onLanguage:sql",
+		"onLanguage:stata",
+		"onLanguage:stylus",
+		"onLanguage:swift",
+		"onLanguage:tcl",
+		"onLanguage:terraform",
+		"onLanguage:twig",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact",
+		"onLanguage:vb",
+		"onLanguage:verilog",
+		"onLanguage:vue",
+		"onLanguage:yaml"
+	],
+	"galleryBanner": {
+		"color": "#e3f4ff",
+		"theme": "light"
+	},
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Colorful Comments Configuration",
+			"properties": {
+				"colorful-comments.multilineComments": {
+					"type": "boolean",
+					"description": "Whether the multiline comment highlighter should be active",
+					"default": true
+				},
+				"colorful-comments.highlightPlainText": {
+					"type": "boolean",
+					"description": "Whether the plaintext comment highlighter should be active",
+					"default": false
+				},
+				"colorful-comments.tags": {
+					"type": "array",
+					"description": "Tags which are used to color the comments. Changes require a restart of VS Code to take effect",
+					"default": [
+						{
+							"tag": "!",
+							"color": "#FF2D00",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "?",
+							"color": "#22C1F6",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "//",
+							"color": "#474747",
+							"strikethrough": true,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "^",
+							"color": "#EAF622",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "*",
+							"color": "#46F622",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "&",
+							"color": "#FF06A0",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "~",
+							"color": "#BE00FF",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						},
+						{
+							"tag": "todo",
+							"color": "#FF8C00",
+							"strikethrough": false,
+							"backgroundColor": "transparent"
+						}
+					]
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"@types/vscode": "^1.48.0",
+		"@typescript-eslint/eslint-plugin": "^3.8.0",
+		"@typescript-eslint/parser": "^3.8.0",
+		"eslint": "^7.6.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.0.1",
+		"typescript": "^3.8.3",
+		"vsce": "^1.78.0",
+		"vscode-test": "^1.4.0"
+	}
+}
