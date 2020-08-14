@@ -1,6 +1,6 @@
 {
   // ^ This is a comment in JSONC
-  // ! this one is colored
+  // ! this one is colorful
   "item1": 1,
   "item2": {
     "child": ""

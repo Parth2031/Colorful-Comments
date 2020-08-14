@@ -38,7 +38,7 @@ export class Parser
   private ignoreFirstLine = false;
   public supportedLanguage = true;
 
-  private contributions: Contributions = vscode.workspace.getConfiguration('colored-comments') as any;
+  private contributions: Contributions = vscode.workspace.getConfiguration('colorful-comments') as any;
 
   public constructor() {
     this.setTags();
