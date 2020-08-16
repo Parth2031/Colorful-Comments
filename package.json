@@ -139,7 +139,7 @@
 						},
 						{
 							"tag": "?",
-							"color": "#22C1F6",
+							"color": "#0076FF",
 							"strikethrough": false,
 							"backgroundColor": "transparent"
 						},
@@ -157,7 +157,7 @@
 						},
 						{
 							"tag": "*",
-							"color": "#46F622",
+							"color": "#28FF00",
 							"strikethrough": false,
 							"backgroundColor": "transparent"
 						},
