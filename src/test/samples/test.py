@@ -2,12 +2,13 @@
 #!/usr/bin/env python3
 
 """
-    my_method does a thing. There are many like it, but this one is mine.
+    TODO my_method does a thing. There are many like it, but this one is mine.
     ? Do we really need this?
     ! Deprecated
     ^ Comments
+    * Important
     & Another Comment
-    @param my_param Do some stuff with this
+    ~ my_param Do some stuff with this
 """
 
 # ! Import the modules

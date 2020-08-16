@@ -3,6 +3,7 @@ export class TestClass
 {
   /**
    * Test Method
+   * ! Colorful
    * * Important information is highlighted
    * & Deprecated method, do not use
    * ? Should this method be exposed through API?

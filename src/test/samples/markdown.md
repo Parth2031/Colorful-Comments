@@ -1,4 +1,4 @@
-### some markdown
+### Some Markdown
 ## Some other header
 
 * bullet point
@@ -10,7 +10,7 @@
 <!-- ? Comments -->
 <!-- ^ Comments -->
 <!--
-  ! Comments
+  TODO Comments
   ~ Comments
   & Comments 
 -->
