@@ -1,14 +1,14 @@
 
 /*
-  My Class
-! Create some Copyright Notes
+? My Class
+! Creating some Copyright Notes
 */
 
 /*
   & My Function
   ! Some Alert
   ^ Some stuff
-  ?  Questions
+  ? Questions
   * Highlights
   ~ Arrow Function
   TODO Colorful 
@@ -16,9 +16,8 @@
 
 var myFunction = function(myParam) {
   return myParam;
+  // ^ Tested all Cases
 }
-
-// ! Need more content here
 
 //// removed code
 
