@@ -42,7 +42,7 @@ The default 7 can be modifed to change the colors, and more can be added.
   },
   {
     "tag": "?",
-    "color": "#22C1F6",
+    "color": "#0076FF",
     "strikethrough": false,
     "backgroundColor": "transparent",
     "bold": false,
@@ -66,7 +66,7 @@ The default 7 can be modifed to change the colors, and more can be added.
   },
   {
     "tag": "*",
-    "color": "#46F622",
+    "color": "#28FF00",
     "strikethrough": false,
     "backgroundColor": "transparent",
     "bold": false,
