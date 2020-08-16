@@ -101,6 +101,33 @@ The default 7 can be modifed to change the colors, and more can be added.
 ]
 ```
 
+## Supported Languages 
+
+* C
+* C#
+* C++
+* Clojure
+* CSS
+* Groovy
+* HTML
+* Java
+* Javascript
+* JavaScript React
+* JSON with comments
+* Less
+* Lua
+* Markdown
+* Objective-C
+* Objective-C++
+* PHP
+* PowerShell
+* Python
+* Sass
+* SCSS
+* TypeScript
+* TypeScript React
+* YAML
+
 <!-- ## Supported Languages
 
 * Ada
