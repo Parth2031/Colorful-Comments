@@ -108,6 +108,8 @@ The default 7 can be modifed to change the colors, and more can be added.
 * C++
 * Clojure
 * CSS
+* Dart
+* Dockerfile
 * Groovy
 * HTML
 * Java
