@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.0]
+* Needed to re-publish my extension due to technical glitch so pls support so, it starts from 0.1.0 but has updated part of 0.5.0
+
 ## [0.4.0]
 * Added New Logo and Updated Package.json
 
