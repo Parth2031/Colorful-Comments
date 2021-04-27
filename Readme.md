@@ -103,6 +103,7 @@ The default 7 can be modifed to change the colors, and more can be added.
 
 ## Supported Languages 
 
+* BrightScript
 * C
 * C#
 * C++
@@ -128,6 +129,7 @@ The default 7 can be modifed to change the colors, and more can be added.
 * SCSS
 * TypeScript
 * TypeScript React
+* XML
 * YAML
 
 <!-- ## Supported Languages
