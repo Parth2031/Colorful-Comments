@@ -76,7 +76,7 @@ export class Parser
   }
 
 	/**
-	* Finds all single line comments delimted by a given delimter and matching tags specified in package.json
+	* Finds all single line comments delimited by a given delimiter and matching tags specified in package.json
 	* @param activeEditor The active text editor containing the code document
   */
   
@@ -330,9 +330,11 @@ export class Parser
                       this.setCommentFormat("--", "{-", "-}");
                       break;
 
-      case "vb":
+      
+      case "brightscript":
       case "diagram":                                                        // ? PlantUML is recognized as Diagram (diagram)
-                      this.delimiter = "'";
+      case "vb":
+                this.delimiter = "'";
                       break;
 
       case "bibtex":
@@ -364,8 +366,9 @@ export class Parser
 
       case "html":
       case "markdown":
-                       this.setCommentFormat("<!--", "<!--", "-->");
-                       break;
+      case "xml":
+                  this.setCommentFormat("<!--", "<!--", "-->");
+                  break;
 
       case "twig": this.setCommentFormat("{#", "{#", "#}");
                    break;
