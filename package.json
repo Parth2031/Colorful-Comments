@@ -22,7 +22,7 @@
 		"Formatters"
 	],
 	"extensionKind": [
-		"ui"
+		"ui","workspace"
 	],
 	"activationEvents": [
 		"onLanguage:ada",
