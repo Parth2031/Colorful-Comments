@@ -3,7 +3,7 @@
 	"displayName": "Colorful Comments",
 	"icon": "icon.png",
 	"description": "Improve and Enhance your code and make it attractive by adding Colorful Comments",
-	"version": "0.7",
+	"version": "0.6.3",
 	"publisher": "ParthR2031",
 	"author": {
 		"name": "Parth Rastogi"
@@ -16,7 +16,7 @@
 	},
 	"bugs": "https://github.com/Parth2031/Colorful-Comments/issues",
 	"engines": {
-		"vscode": "^1.68.0"
+		"vscode": "^1.48.0"
 	},
 	"categories": [
 		"Formatters"
